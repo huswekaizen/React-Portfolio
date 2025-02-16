@@ -1,0 +1,149 @@
+*{
+    font-family: "Geist";
+    font-optical-sizing: auto;
+    font-style: normal;
+    margin: 0;
+    color: #ffffff;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color: #000000;
+    overflow-y: scroll  
+}
+
+.web{
+    width: 100%;
+    max-width: 640px;
+    margin: auto;
+    
+}
+
+.main{
+    height: auto;
+    
+    margin: 16px 14px;
+}
+
+.main-card{
+    padding-bottom: 60px;
+    font-size: 24px;
+}
+
+.main-card h1{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #f1f1f1;
+}
+
+.about-me-card{
+    border: 0.5px solid rgb(80, 80, 80);
+    border-radius: 10px;
+    background-color: #111111;
+    margin-top: 10px;
+    padding: 18px;
+    
+}
+
+.about-me-card p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+  
+nav ul li{
+    display: inline-block;
+    margin-right: 35px;
+}
+
+nav ul li a{
+    color: #ffffff8e;
+    font-size: 14px;
+
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.profile-details h1{
+    color: white;
+    font-size: 29px;
+}
+
+.profile-details h4{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    color: #f1f1f1;
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 2px;
+
+}
+
+
+
+.profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    gap: 35px;
+}
+
+.profile-picture img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.profile-details{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.skills h2{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 28px;   
+    font-size: 30px;
+}
+
+
+.skills-container-categories{
+    display: flex;
+    gap: 22px;
+    margin: 16px 0 18px 0;
+}
+
+.skills-container-categories h4{
+    font-size: 13px;
+    font-weight: 400;
+   
+}
+
+.first{
+    
+    padding: 7px 10px ;
+    cursor: pointer;
+
+}.second{
+    padding: 7px;
+    cursor: pointer;
+}
+
+.frontend, .backend{
+    display: flex;
+}
