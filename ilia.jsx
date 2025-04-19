@@ -90,7 +90,7 @@ function Ilia() {
                 ))}
             </div>
 
-            {/* Show restart button if the game is over */}
+            
             {(attempts === 0 || result === "You are Correct!") && (
                 <button onClick={() => window.location.reload()}>Restart</button>
             )}
